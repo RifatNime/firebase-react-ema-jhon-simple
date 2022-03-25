@@ -1,0 +1,64 @@
+.cart{
+    top:0;
+    position: sticky;
+    padding: 30px 20px;
+}
+.cart h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    color: #1C2B35;
+    font-size: 25px;
+    margin-top: -1.5rem;
+    line-height: 30px;
+}
+.cart h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: rgba(14, 22, 26, 1);
+}
+
+.btn{
+    margin-top: 60px;
+}
+
+#btn1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 232px;
+    height: 48px;
+    border: none;
+    background-color: #FF3030;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.icon{
+    margin-left: 5px;
+}
+
+#btn2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 232px;
+    height: 48px;
+    border: none;
+    background-color: #FF9900;
+    border-radius: 4px;
+    cursor: pointer;
+}
