@@ -1,11 +1,13 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrashAlt, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from 'react';
+
 import './Cart.css'
 
 const Cart = (props) => {
     const {cart}=props;
-    // console.log('clicked',cart)
+    // const [cart, setCart] = useState([]);
+    
+    // console.log('clicked'.cart)
+    // console.log(props.children);
     let quantity = 0;
     let total = 0;
     let shipping =0;
@@ -18,6 +20,7 @@ const Cart = (props) => {
     // const tax = (total * 0.1).toFixed(2); string so
     const grandTotal = total + shipping + tax;
 
+
     return (
         <div className='cart'>
             <h4>Order Summary</h4>
@@ -27,10 +30,11 @@ const Cart = (props) => {
             <p>Total Shipping Charge: ${shipping}</p>
             <p>Tax: ${tax}</p>
             <h3>Grand Total: ${grandTotal.toFixed(2)}</h3>
-            <div className='btn'>
+            {props.children}
+            {/* <div className='btn'>
                 <button onClick={() => props.clearCart()}  id='btn1'>Clear Cart <FontAwesomeIcon className='icon' icon={faTrashAlt}></FontAwesomeIcon></button>
                 <button  onClick={props.confirmOrder}  id='btn2'>Review Order <FontAwesomeIcon className='icon' icon={faArrowRight}></FontAwesomeIcon></button>
-            </div>
+            </div> */}
         </div>
     );
 };
