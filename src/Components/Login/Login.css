@@ -1,0 +1,108 @@
+.form-container {
+    font-family: 'Lato';
+    margin: 0 auto;
+    width: 600px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2A414F;
+
+}
+
+.from-title {
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    width: 415px;
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.input-group input {
+    display: block;
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.button1 {
+    background-color: #ffffff;
+    border: none;
+    margin: 08px 0 20px 0;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-submit {
+    font-size: 20px;
+    width: 415px;
+    height: 55px;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.form-submit:hover{
+    background: rgba(255, 153, 0, 0.6);
+}
+
+.from-link {
+    font-size: 15px;
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.from-link:hover {
+    color: #000000;
+}
+
+.b1 {
+    border: 1px solid #95A0A7;
+    width: 145px;
+    height: 0px;
+
+}
+
+.b2 {
+    padding: 0px 20px;
+    /* padding-bottom: 10px ; */
+    /* margin-top: 0; */
+}
+
+.b21 {
+    color: #95A0A7;
+}
+
+.input-group-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
